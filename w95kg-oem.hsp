@@ -1,0 +1,18 @@
+title"Win95KeyGen"
+screen 0,240,70
+key = "Click the Generate button"
+*draw
+pos 0,0
+clrobj
+color 255,255,255,boxf
+color 0,0,0
+font"", 15
+mes"Windows95 ProductKey Generator"
+mes"for OEM"
+button"Generete", *gen
+mes key
+stop
+*gen
+mod7 = rnd(10)
+key = "35595-OEM-"+"07777777"+rnd(10)+rnd(10)+rnd(10)+rnd(10)+rnd(10)
+goto *draw
