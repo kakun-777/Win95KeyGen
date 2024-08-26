@@ -1,2 +1,3 @@
 # Win95KeyGen
-Windows95 ProductKey Generator
+Windows95のプラダクトキーのアルゴリズムが公開されていたので作りました
+三桁とmod7用のブラックリストに引っかからないランダムの数字を作って連結させています
