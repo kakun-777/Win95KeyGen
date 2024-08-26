@@ -1,0 +1,19 @@
+title"Win95KeyGen"
+screen 0,240,70
+key = "Click the Generate button"
+*draw
+pos 0,0
+clrobj
+color 255,255,255,boxf
+color 0,0,0
+font"", 15
+mes"Windows95 ProductKey Generator"
+mes"ver1.0"
+button"Generete", *gen
+mes key
+stop
+*gen
+f3d = rnd(3)
+mod7 = rnd(10)
+key = "Key:"+f3d+f3d+f3d+"-"+mod7+mod7+mod7+mod7+mod7+mod7+mod7
+goto *draw
