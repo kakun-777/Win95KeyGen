@@ -1,6 +1,4 @@
 # Win95KeyGen
-Windows95のプラダクトキーのアルゴリズムが公開されていたので作りました
-三桁とmod7用のブラックリストに引っかからないランダムの数字を作って連結させています
-HotSoupProcessorで作りました
-exe単体で動きます
-hspファイルはソースです
+The Windows 95 product key algorithm was made public, so this is a simple app I made based on that.
+
+The author takes no responsibility for anything that happens.
